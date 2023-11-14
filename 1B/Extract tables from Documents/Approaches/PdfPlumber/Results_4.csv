@@ -1,0 +1,29 @@
+,"Preconditioners𝐌
+𝑘",ProsandCons
+0,"2. Full Jacobian preconditioner, i.e., 𝐌 =
+𝑘
+ .
+𝑘","Essentially, this preconditioning strategy uses AA to acceler-
+ate Newton’s method28. However, it comes with computational
+expensessinceweneedtoupdatethispreconditionerateachitera-
+tion."
+1,"3. Diagonal Jacobian or Block-
+diagonal Jacobian preconditioner, i.e.,
+𝐌 =diag( )or 𝐌 =diagBlock( ).
+𝑘 k k k","Tostrikeabalancebetweena“goodpreconditioner""and“computa-
+tional overhead"", the (block) diagonal Jacobian preconditioner can
+beapromisingcandidateduetoitsrelativelyinexpensivecomputa-
+tion."
+2,"4.OtherapproximationsofJacobianaspre-
+conditioners.","Forexample,wecanuserankonecorrectionandranktwocorrection
+oftheinverseofJacobianmatrixinL-BFGS33 asapreconditioner.
+Besides,wecouldalsouseAAitselfasapreconditionerforAA14.
+These preconditioners are computationally cheaper and they can
+approximatetheinverseofJacobianmatrixdirectly."
+3,"5. Updating the preconditioners 𝐌 every
+𝑁 stepsinsteadofupdatingthemeach
+𝑢𝑝𝑑𝑎𝑡𝑒
+iteration.","Unlike Newton-type solvers and gradient-based methods, the AA
+iteration scheme involves a linear combination of several previous
+iterates. This characteristic allows us to avoid frequent updates of
+preconditioners,whichcanbecomputationallyexpensive."
