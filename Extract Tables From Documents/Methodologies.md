@@ -1,6 +1,6 @@
 # Methods to Extract Table's from Documents:
 
-**1. Table Transformer (TATR): **
+**1. Table Transformer (TATR)**
 - source : https://github.com/microsoft/table-transformer#table-transformer-tatr
 -  A deep learning model based on object detection for extracting tables from PDFs and images.
 -  First proposed in "PubTables-1M: Towards comprehensive table extraction from unstructured documents".
