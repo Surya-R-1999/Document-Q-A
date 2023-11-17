@@ -26,6 +26,9 @@ pip install "paddleocr>=2.0.1"
 
 # Command Line Implementation:
 
+![img_12](https://github.com/Surya-R-1999/Document-Q-A/assets/121089254/886dbc9e-2a9b-42cb-9138-c9dee43c61de)
+
+
 - move to the directory where the folder containing images,
 ```
 cd /path/to/ppocr_img
