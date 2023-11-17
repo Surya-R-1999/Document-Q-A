@@ -1,4 +1,4 @@
-# Methods to Extract Table's from Documents:
+# Methods to Extract Table's from Documents :
 
 - Extracting tables from multiple format documents and storing them in a CSV file can be a challenging task, as different types of documents may have different structures and formats. However, various methods and tools are available to help automate this process. In this passage, we will discuss the performance of four methods in extracting tables from documents of different formats and storing them in a CSV file.
 
