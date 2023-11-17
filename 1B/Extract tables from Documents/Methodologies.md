@@ -2,13 +2,18 @@
 
 - Extracting tables from multiple format documents and storing them in a CSV file can be a challenging task, as different types of documents may have different structures and formats. However, various methods and tools are available to help automate this process. In this passage, we will discuss the performance of four methods in extracting tables from documents of different formats and storing them in a CSV file.
 
-- The four methods tested in this passage are PDFPlumber, PaddleOCR, YOLO, and three others. PDFPlumber is a tool that uses Optical Character Recognition (OCR) technology to extract tables from PDF documents. PaddleOCR is an open-source OCR engine that can extract tables from various formats, including PDF, TXT, and Images. YOLO is a deep learning-based method that uses object detection to locate and extract tables from documents.
+- The seven methods tested in this passage are PDFPlumber, PaddleOCR, YOLO, and four others.
+
+- PDFPlumber is a tool that uses Optical Character Recognition (OCR) technology to extract tables from PDF documents. PaddleOCR is an open-source OCR engine that can extract tables from various formats, including PDF, TXT, and Images. YOLO is a deep learning-based method that uses object detection to locate and extract tables from documents.
 
 - The results of the experiment show that PDFPlumber was able to detect and recognize the tables in the documents and store them in a CSV file with high accuracy. PaddleOCR, on the other hand, used NLP models to extract the texts with an accuracy of 90%. YOLO was able to detect the tables and provided the coordinates, but it did not store the tables in a CSV file.
 
 - Overall, these results demonstrate the effectiveness of different methods in extracting tables from documents of different formats and storing them in a CSV file. PDFPlumber and PaddleOCR are suitable for extracting tables from PDF documents, while YOLO can be used for detecting tables in images. These methods can be used in various industries, such as finance, healthcare, and education, where automated table extraction is a crucial task.
 
 - In conclusion, extracting tables from multiple format documents and storing them in a CSV file is a task that can be automated using various methods and tools. The choice of method depends on the format of the documents and the desired level of accuracy. By using these methods, organizations can save time and reduce manual effort in data entry, which can lead to increased productivity and accuracy.
+
+# Out of Which PaddleOCR, PdfPlumber and Yolo were able to produce Results
+
 
 **1. Table Transformer (TATR)**
 - source : https://github.com/microsoft/table-transformer#table-transformer-tatr
