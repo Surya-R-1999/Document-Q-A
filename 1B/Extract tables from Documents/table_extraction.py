@@ -19,7 +19,7 @@ import pandas as pd
 from joblib import Parallel, delayed
 
 # Open AI Key
-open_ai_key =  "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"
+open_ai_key =  "******************************************************"
 
 ###################################################################################################
 # Prompts
