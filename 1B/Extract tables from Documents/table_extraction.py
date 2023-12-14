@@ -42,7 +42,7 @@ class Tables(BaseModel):
     rows : list
     description: str    
     
-OPENAI_API_TOKEN = "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"
+OPENAI_API_TOKEN = "******************************************************"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_TOKEN
 
 openai_mm_llm = OpenAIMultiModal(
